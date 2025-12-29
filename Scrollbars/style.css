@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: crimson;
+}
+
+.card{
+    width: 700px;
+    background-color: #ccc;
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+    line-height: 28px;
+}
+
+/* scroll bar */
+
+::-webkit-scrollbar{
+    background: transparent;
+    width: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+    /* Change 'background-color' to 'background' */
+    background: linear-gradient(to bottom, #a47451, #9c9881, #73a09d, #3b899a, #095b79, #002847, #000116);
+    border-radius: 100px;
+}
